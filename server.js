@@ -12,44 +12,44 @@ app.engine("jsx", require("express-react-views").createEngine())
 
 //TEMP 1
 app.get("/bird", (req, res) => {
-    res.render("Indexbird")
+    res.render("templateOne/bird")
 })
 
 app.get("/cat", (req, res) => {
-    res.render("Indexcat")
+    res.render("templateOne/cat")
 })
 
 app.get("/dog", (req, res) => {
-    res.render("Indexdog")
+    res.render("templateOne/dog")
 })
 
 app.get("/insect", (req, res) => {
-    res.render("Indexinsect")
+    res.render("templateOne/insect")
 })
 
 app.get("/fish", (req, res) => {
-    res.render("Indexfish",)
+    res.render("templateOne/fish")
 })
 
 //TEMP2
 app.get("/about", (req, res) => {
-    res.render("Indexabout")
+    res.render("templateTwo/about")
 })
 
 app.get("/catalog", (req, res) => {
-    res.render("Indexcatalog")
+    res.render("templateTwo/catalog")
 })
 
 app.get("/contact", (req, res) => {
-    res.render("Indexcontact")
+    res.render("templateTwo/contact")
 })
 
 app.get("/help", (req, res) => {
-    res.render("Indexhelp",)
+    res.render("templateTwo/help")
 })
 
 app.get("/home", (req, res) => {
-    res.render("Indexhome")
+    res.render("templateTwo/home")
 })
 
 

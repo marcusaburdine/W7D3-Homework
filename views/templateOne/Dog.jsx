@@ -1,12 +1,14 @@
 const React = require("react")
-class Indexbird extends React.Component {
+class Dog extends React.Component {
     render() {
         return (
             <div>
-                <h1>Bird Page</h1>
+                <h1>Dog Page</h1>
 
             </div>
         )
     }
 }
-module.exports = Indexbird
+
+
+module.exports = Dog

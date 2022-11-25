@@ -1,12 +1,12 @@
 const React = require("react")
-class Indexfish extends React.Component {
+class Insect extends React.Component {
     render() {
         return (
             <div>
-                <h1>Fish Page</h1>
+                <h1>Insect Page</h1>
 
             </div>
         )
     }
 }
-module.exports = Indexfish
+module.exports = Insect

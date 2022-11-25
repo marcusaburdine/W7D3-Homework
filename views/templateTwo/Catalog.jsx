@@ -1,12 +1,12 @@
 const React = require("react")
-class Indexhelp extends React.Component {
+class Catalog extends React.Component {
     render() {
         return (
             <div>
-                <h1>Help Page</h1>
+                <h1>Catalog Page</h1>
 
             </div>
         )
     }
 }
-module.exports = Indexhelp
+module.exports = Catalog

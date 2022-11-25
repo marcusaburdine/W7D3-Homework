@@ -1,12 +1,12 @@
 const React = require("react")
-class Indexabout extends React.Component {
+class Contact extends React.Component {
     render() {
         return (
             <div>
-                <h1>About Page</h1>
+                <h1>Contact Page</h1>
 
             </div>
         )
     }
 }
-module.exports = Indexabout
+module.exports = Contact
